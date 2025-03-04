@@ -1,184 +1,144 @@
 import {
- Logo
+  Logo
 } from "../images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "../components/icons";
+import { GitHubIcon, LinkedInIcon } from "../components/icons";
 
 export const RESUME_DATA = {
-  name: "Your Name",
-  initials: "YN",
-  location: " Lorem Ipsum, DOL",
+  name: "Muhammad Nouman",
+  initials: "MN",
+  location: "Lahore, Pakistan",
   locationLink: "https://www.google.com/maps/",
   about:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "Computer Science student passionate about Generative AI and software development.",
   summary: (
     <>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae fringilla nulla, 
-      in vehicula ligula. Morbi dignissim tempor justo, sit amet dictum purus feugiat in. 
-      Interdum et malesuada fames ac ante ipsum primis.
+      A highly motivated Computer Science student at UET Lahore with experience in Generative AI, AI-driven applications, and full-stack development. Skilled in multiple programming languages and frameworks, with a strong foundation in problem-solving and leadership.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://defang.io/",
+  avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQFTSR5Pe1gn_A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727197007505?e=1746662400&v=beta&t=7yS7TDSIUi9gKMc9XK1YiVxcR7pTkRshRKx5YWY7--0",
+  personalWebsiteUrl: "https://nouman-dev-portfolio.vercel.app/",
   contact: {
-    email: "lorem.ipsum@example.com",
-    tel: "+1234567890",
+    email: "2022cs49@student.uet.edu.pk",
+    tel: "+923228429291",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/DefangLabs",
+        url: "https://github.com/Nouman-Usman",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/company/defanglabs/",
+        url: "https://www.linkedin.com/in/nouman-usman/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://twitter.com/DefangLabs",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Faucibus Orci Luctus",
-      degree: "Bachelor's Degree in Vestibulum Ante",
-      start: "2007",
-      end: "2010",
+      school: "University of Engineering and Technology, Lahore",
+      degree: "Bachelor's Degree in Computer Science",
+      start: "2022",
+      end: "Present",
     },
   ],
   work: [
     {
-      company: "Company",
+      company: "Xavor Corporation",
       link: "about:blank",
-      badges: ["Remote", "React", "TypeScript", "Node.js"],
-      title: "Job Position",
+      badges: ["Remote", "Gen-AI", "AI Agents", "RAG", "React", "TypeScript", "Node.js"],
+      title: "Generative AI Intern",
       logo: Logo,
-      start: "2024",
-      end: null,
+      start: "June 2024",
+      end: "Sep 2024",
       description: (
         <>
-          Sed eget felis lacus. Maecenas placerat diam a tincidunt viverra. 
+          Recognized as a top performer in Generative AI, achieving 9/10 proficiency in Open Source LLMs.
           <ul className="list-inside list-disc">
-            <li>
-              Praesent hendrerit justo et nisl dapibus, porttitor placerat nisi efficitur.
-            </li>
-            <li>
-              Donec viverra urna in porta dignissim, nunc suscipit aliquet elementum, 
-              etiam vestibulum. 
-            </li>
-            <li>
-              Curabitur venenatis magna lacinia, vulputate nisl ac, fermentum turpis. 
-            </li>
+            <li>Ranked 3rd in the batch based on expertise in Gen-AI applications.</li>
           </ul>
         </>
       ),
     },
     {
-      company: "Company",
+      company: "University of California, Irvine",
       link: "about:blank",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-      ],
-      title: "Job Position",
+      badges: ["Remote", "AI", "Healthcare", "Flask", "Azure"],
+      title: "Generative AI Developer",
       logo: Logo,
-      start: "2021",
-      end: "2024",
+      start: "Aug 2024",
+      end: "Sep 2024",
       description: (
         <>
-          Quisque vitae elementum orci. In hac habitasse platea dictumst.
+          Developed an AI-driven healthcare application that outperformed 20+ competing projects.
           <ul className="list-inside list-disc">
-            <li>
-            Duis ornare ligula nec tincidunt mattis, crabitur lectus neque.
-            </li>
-            <li>
-            Donec porttitor nec magna quis facilisis mauris, rutrum a diam vitae rhoncus 
-            donec luctus.
-            </li>
-            <li>
-            Phasellus nibh felis, scelerisque aliquet cursus a, blandit id sem, 
-            nam aliquet dolor.
-            </li>
+            <li>Enhanced medical education through AI integration.</li>
           </ul>
         </>
       ),
     },
     {
-      company: "Company",
+      company: "UET Lahore",
       link: "about:blank",
-      badges: ["Remote", "React", "TypeScript", "Node.js"],
-      title: "Job Position",
+      badges: ["Teaching", "Technical Guidance", "Leadership"],
+      title: "Teaching Assistant",
       logo: Logo,
-      start: "2015",
-      end: "2021",
+      start: "Sep 2023",
+      end: "Present",
       description: (
         <>
-          Sed aliquet hendrerit odio, in elementum ante convallis quis.
+          Providing technical guidance, leading to a 25% improvement in student test scores.
           <ul className="list-inside list-disc">
-            <li>
-            Donec blandit nibh at felis vehicula vehicula, nunc semper porttitor malesuada.
-            </li>
-            <li>
-            Etiam rutrum dolor vel elit cursus elementum. 
-            </li>
-            <li>
-            Curabitur urna sem, faucibus auctor dignissim a, eleifend at mauris.
-            </li>
+            <li>Designed and implemented better teaching strategies.</li>
           </ul>
         </>
       ),
     }
   ],
   skills: [
-    "React",
-    "TypeScript",
-    "Tailwind CSS",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "Python", "C++", "C#", "JavaScript", "TypeScript", "Java", "SQL", "Next.js", "ASP.NET", "Flask", "Azure", "Google Cloud Platform", "Leadership", "Problem Solving"
   ],
   projects: [
     {
-      title: "Project 1",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      title: "ApnaWaqeel",
+      techStack: ["Next.js", "Generative AI", "Azure", "Twilio"],
       description:
-        "Nam aliquet dolor a risus pharetra placerat, praesent congue nulla dolor.",
+        "Building Pakistan’s first legal case management system for lawyers and clients with automated reminders.",
       logo: Logo,
       link: {
-        label: "blank",
+        label: "View Project",
         href: "about:blank",
       },
     },
     {
-      title: "Project 2",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-      ],
+      title: "Legal Assistant",
+      techStack: ["Flask", "Langchain", "Pinecone", "Azure"],
       description:
-        "Pellentesque habitant morbi tristique senectus.",
+        "Developed an AI-based legal assistant focused on Pakistani law.",
       logo: Logo,
       link: {
-        label: "blank",
+        label: "View Project",
         href: "about:blank",
       },
     },
     {
-      title: "Project 3",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      title: "BP-PAL",
+      techStack: ["Flask", "Azure", "Generative AI"],
       description:
-        "Curabitur lectus neque, tempor at tortor non, viverra tempor tellus.",
+        "Engineered a chatbot to assist UC Irvine students with health management.",
       logo: Logo,
       link: {
-        label: "blank",
+        label: "View Project",
+        href: "about:blank",
+      },
+    },
+    {
+      title: "E-Commerce Store",
+      techStack: ["ASP.NET", "jQuery", "JavaScript", "HTML", "CSS"],
+      description:
+        "Developed an ASP.NET-based e-commerce store with a responsive and user-friendly interface.",
+      logo: Logo,
+      link: {
+        label: "View Project",
         href: "about:blank",
       },
     },
